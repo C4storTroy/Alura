@@ -1,6 +1,6 @@
 package nz.co.c4stortroy.initwithobjects;
 
-public class Funcionario {
+public class Employer {
 
     private String name;
     private double income;

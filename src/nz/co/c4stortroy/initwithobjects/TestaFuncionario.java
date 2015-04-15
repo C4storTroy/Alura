@@ -4,7 +4,7 @@ public class TestaFuncionario {
     
     
     public static void main(String[] args) {
-	Funcionario f1 = new Funcionario();
+	Employer f1 = new Employer();
 	//Date date = new Date();
 	
 	f1.setName("Hugo");
