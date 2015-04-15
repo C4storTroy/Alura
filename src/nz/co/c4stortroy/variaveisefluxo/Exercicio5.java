@@ -1,4 +1,4 @@
-package com.c4stortroy.variaveisefluxo;
+package nz.co.c4stortroy.variaveisefluxo;
 
 public class Exercicio5 {
   public static void main(String[] args){
