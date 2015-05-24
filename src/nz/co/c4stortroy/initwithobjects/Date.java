@@ -23,7 +23,7 @@ public class Date {
         if (day <= 0 || month <= 0) {
             return false;
         }
-        int lastDayMonth = 31; // por padrao são 31 dias
+        int lastDayMonth = 31; // 31 days by pattern
         if (month == 4 || month == 6 || month == 9 || month == 11 ) {
             lastDayMonth = 30;
         } else if (month == 2) {

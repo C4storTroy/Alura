@@ -6,7 +6,15 @@ public class Employer {
     private double income;
     private String passport;
     private String departament;
+    private static int nextEmployer;
+    private int identify;
+    
     Date date;
+    
+    public Employer(String name){
+	this.name = name;
+	this.identify = nextEmployer++;
+    }
     
     public void plusIncome(double plus){
 	this.income += plus;
@@ -24,6 +32,13 @@ public class Employer {
 	System.out.println("Income: " + this.income + "\n");
     }
 
+    /*
+     * this method is an example to use static
+     */
+    public int getIdentify() {
+	return identify;
+    }
+    
     public String getName() {
         return name;
     }
