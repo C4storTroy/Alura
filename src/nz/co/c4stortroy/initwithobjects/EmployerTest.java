@@ -1,6 +1,6 @@
 package nz.co.c4stortroy.initwithobjects;
 
-public class TestaFuncionario {
+public class EmployerTest {
     
     
     public static void main(String[] args) {

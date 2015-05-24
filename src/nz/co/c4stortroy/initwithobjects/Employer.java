@@ -21,6 +21,7 @@ public class Employer {
 	System.out.println("Departamento: "+ this.departament);
 	System.out.println("RG: "+ this.passport);
 	System.out.println("Date: " + this.date.formatDate());
+	System.out.println("Income: " + this.income + "\n");
     }
 
     public String getName() {
